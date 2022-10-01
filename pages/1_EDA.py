@@ -7,7 +7,7 @@ from streamlit_pandas_profiling import st_profile_report
 
 @st.cache
 def load_runs():
-    dftrain = pd.read_csv("./data/heart.csv")
+    dftrain = pd.read_csv("./Data/heart.csv")
     return dftrain
 
 def return_report(df):
